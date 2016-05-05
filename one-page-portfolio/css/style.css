@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background: url("http://lonelypeak.com.ua/templates/ordasofttemplate-shoestoretemplate/images/02.png"); }
+
+a {
+  text-decoration: none; }
+
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px; }
+
+.logo {
+  background: pink;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: url("http://fillmurray.com/215/215") center center no-repeat;
+  background-size: cover; }
+
+nav {
+  margin-top: 20px;
+  margin-left: 20px; }
+  nav a {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5); }
+    nav a:hover {
+      color: black;
+      border-bottom: 3px solid black; }
+
+header {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1449024540548-94f5d5a59230?crop=entropy&fit=crop&fm=jpg&h=925&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1900") center bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.first-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 25px 0 25px; }
+
+.second-line {
+  align-items: center; }
+
+.third-line {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  margin-bottom: 10px; }
+
+header h1 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.05em;
+  margin-bottom: 15px; }
+  header h1 span {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: white solid 10px; }
+header .subheader {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+  line-height: 1; }
+
+.about {
+  padding: 20px 0 20px 0; }
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .avatar img {
+    border-radius: 50%;
+    margin-bottom: 15px; }
+
+.portfolio {
+  padding: 20px 0 20px 0; }
+
+figure {
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  margin-bottom: 20px;
+  position: relative;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.3s ease-in-out; }
+  figure.is-showing {
+    opacity: 1;
+    transform: translateX(0px); }
+  figure img {
+    width: 100%; }
+
+footer .first-line {
+  padding-bottom: 20px; }
+
+/*# sourceMappingURL=style.css.map */
